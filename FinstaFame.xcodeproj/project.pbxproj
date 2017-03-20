@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D887864944F07E232B2E682 /* Pods_FinstaFameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1589AF15D93944995BFBA6 /* Pods_FinstaFameTests.framework */; };
+		2B8E8AA1918661BE511DF2E5 /* Pods_FinstaFameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B0EF6E3D60E819E093F96 /* Pods_FinstaFameUITests.framework */; };
+		3D04BD8DF733C0642E5D5854 /* Pods_FinstaFame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E3FBD3CE7B5D7AD3BAF273 /* Pods_FinstaFame.framework */; };
+		F8147BE81E7B783D004834ED /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8147BE71E7B783D004834ED /* Post.swift */; };
+		F8256FC21E70D3FE006276BA /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8256FC11E70D3FE006276BA /* PhotosViewController.swift */; };
+		F8256FC61E70D5FA006276BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8256FC51E70D5FA006276BA /* HomeViewController.swift */; };
+		F8256FC81E70D725006276BA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8256FC71E70D725006276BA /* PostCell.swift */; };
+		F8353DA71E6E2DC800E502EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8353DA61E6E2DC800E502EE /* AppDelegate.swift */; };
+		F8353DAC1E6E2DC800E502EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8353DAA1E6E2DC800E502EE /* Main.storyboard */; };
+		F8353DAE1E6E2DC800E502EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8353DAD1E6E2DC800E502EE /* Assets.xcassets */; };
+		F8353DB11E6E2DC800E502EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8353DAF1E6E2DC800E502EE /* LaunchScreen.storyboard */; };
+		F8353DBC1E6E2DC800E502EE /* FinstaFameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8353DBB1E6E2DC800E502EE /* FinstaFameTests.swift */; };
+		F8353DC71E6E2DC800E502EE /* FinstaFameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8353DC61E6E2DC800E502EE /* FinstaFameUITests.swift */; };
+		F8353DD51E6E30AC00E502EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8353DD41E6E30AC00E502EE /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8353DB81E6E2DC800E502EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8353D9B1E6E2DC800E502EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8353DA21E6E2DC800E502EE;
+			remoteInfo = FinstaFame;
+		};
+		F8353DC31E6E2DC800E502EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8353D9B1E6E2DC800E502EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8353DA21E6E2DC800E502EE;
+			remoteInfo = FinstaFame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1589AF15D93944995BFBA6 /* Pods_FinstaFameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinstaFameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75818DBB6AADBE5FEB8D8CAB /* Pods-FinstaFame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinstaFame.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinstaFame/Pods-FinstaFame.release.xcconfig"; sourceTree = "<group>"; };
+		875B0EF6E3D60E819E093F96 /* Pods_FinstaFameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinstaFameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E3FBD3CE7B5D7AD3BAF273 /* Pods_FinstaFame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinstaFame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91652CA92B45BE2FED0422F /* Pods-FinstaFameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinstaFameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinstaFameTests/Pods-FinstaFameTests.release.xcconfig"; sourceTree = "<group>"; };
+		C95961DE71D8FCD3296258D8 /* Pods-FinstaFameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinstaFameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinstaFameUITests/Pods-FinstaFameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7FEFBA984CA17BAA646C68 /* Pods-FinstaFameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinstaFameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinstaFameTests/Pods-FinstaFameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE408045BD62FCFF49EC0B86 /* Pods-FinstaFame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinstaFame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinstaFame/Pods-FinstaFame.debug.xcconfig"; sourceTree = "<group>"; };
+		F8147BE71E7B783D004834ED /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F8256FC11E70D3FE006276BA /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		F8256FC51E70D5FA006276BA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F8256FC71E70D725006276BA /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F8353DA31E6E2DC800E502EE /* FinstaFame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinstaFame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8353DA61E6E2DC800E502EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8353DAB1E6E2DC800E502EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8353DAD1E6E2DC800E502EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8353DB01E6E2DC800E502EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8353DB21E6E2DC800E502EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8353DB71E6E2DC800E502EE /* FinstaFameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinstaFameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8353DBB1E6E2DC800E502EE /* FinstaFameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinstaFameTests.swift; sourceTree = "<group>"; };
+		F8353DBD1E6E2DC800E502EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8353DC21E6E2DC800E502EE /* FinstaFameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinstaFameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8353DC61E6E2DC800E502EE /* FinstaFameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinstaFameUITests.swift; sourceTree = "<group>"; };
+		F8353DC81E6E2DC800E502EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8353DD41E6E30AC00E502EE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC249E397524DD6CCC6C4354 /* Pods-FinstaFameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinstaFameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinstaFameUITests/Pods-FinstaFameUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8353DA01E6E2DC800E502EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D04BD8DF733C0642E5D5854 /* Pods_FinstaFame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8353DB41E6E2DC800E502EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D887864944F07E232B2E682 /* Pods_FinstaFameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8353DBF1E6E2DC800E502EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E8AA1918661BE511DF2E5 /* Pods_FinstaFameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3FAA162368BA1C96D1BB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE408045BD62FCFF49EC0B86 /* Pods-FinstaFame.debug.xcconfig */,
+				75818DBB6AADBE5FEB8D8CAB /* Pods-FinstaFame.release.xcconfig */,
+				DD7FEFBA984CA17BAA646C68 /* Pods-FinstaFameTests.debug.xcconfig */,
+				A91652CA92B45BE2FED0422F /* Pods-FinstaFameTests.release.xcconfig */,
+				C95961DE71D8FCD3296258D8 /* Pods-FinstaFameUITests.debug.xcconfig */,
+				FC249E397524DD6CCC6C4354 /* Pods-FinstaFameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		664A08F13A03F0488FBA4BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98E3FBD3CE7B5D7AD3BAF273 /* Pods_FinstaFame.framework */,
+				6D1589AF15D93944995BFBA6 /* Pods_FinstaFameTests.framework */,
+				875B0EF6E3D60E819E093F96 /* Pods_FinstaFameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8147BE61E7B7822004834ED /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F8256FC71E70D725006276BA /* PostCell.swift */,
+				F8147BE71E7B783D004834ED /* Post.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		F8256FC01E70D3DC006276BA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8353DD41E6E30AC00E502EE /* LoginViewController.swift */,
+				F8256FC11E70D3FE006276BA /* PhotosViewController.swift */,
+				F8256FC51E70D5FA006276BA /* HomeViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F8353D9A1E6E2DC800E502EE = {
+			isa = PBXGroup;
+			children = (
+				F8353DA51E6E2DC800E502EE /* FinstaFame */,
+				F8353DBA1E6E2DC800E502EE /* FinstaFameTests */,
+				F8353DC51E6E2DC800E502EE /* FinstaFameUITests */,
+				F8353DA41E6E2DC800E502EE /* Products */,
+				5C3FAA162368BA1C96D1BB71 /* Pods */,
+				664A08F13A03F0488FBA4BB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8353DA41E6E2DC800E502EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8353DA31E6E2DC800E502EE /* FinstaFame.app */,
+				F8353DB71E6E2DC800E502EE /* FinstaFameTests.xctest */,
+				F8353DC21E6E2DC800E502EE /* FinstaFameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8353DA51E6E2DC800E502EE /* FinstaFame */ = {
+			isa = PBXGroup;
+			children = (
+				F8147BE61E7B7822004834ED /* models */,
+				F8256FC01E70D3DC006276BA /* View Controllers */,
+				F8353DA61E6E2DC800E502EE /* AppDelegate.swift */,
+				F8353DAA1E6E2DC800E502EE /* Main.storyboard */,
+				F8353DAD1E6E2DC800E502EE /* Assets.xcassets */,
+				F8353DAF1E6E2DC800E502EE /* LaunchScreen.storyboard */,
+				F8353DB21E6E2DC800E502EE /* Info.plist */,
+			);
+			path = FinstaFame;
+			sourceTree = "<group>";
+		};
+		F8353DBA1E6E2DC800E502EE /* FinstaFameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8353DBB1E6E2DC800E502EE /* FinstaFameTests.swift */,
+				F8353DBD1E6E2DC800E502EE /* Info.plist */,
+			);
+			path = FinstaFameTests;
+			sourceTree = "<group>";
+		};
+		F8353DC51E6E2DC800E502EE /* FinstaFameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8353DC61E6E2DC800E502EE /* FinstaFameUITests.swift */,
+				F8353DC81E6E2DC800E502EE /* Info.plist */,
+			);
+			path = FinstaFameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8353DA21E6E2DC800E502EE /* FinstaFame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8353DCB1E6E2DC800E502EE /* Build configuration list for PBXNativeTarget "FinstaFame" */;
+			buildPhases = (
+				8555B52A0F5D14050886D37E /* [CP] Check Pods Manifest.lock */,
+				F8353D9F1E6E2DC800E502EE /* Sources */,
+				F8353DA01E6E2DC800E502EE /* Frameworks */,
+				F8353DA11E6E2DC800E502EE /* Resources */,
+				0757FAB6B9CE4BB1A4B26771 /* [CP] Embed Pods Frameworks */,
+				0F425F64A336DFF1EE962C5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinstaFame;
+			productName = FinstaFame;
+			productReference = F8353DA31E6E2DC800E502EE /* FinstaFame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8353DB61E6E2DC800E502EE /* FinstaFameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8353DCE1E6E2DC800E502EE /* Build configuration list for PBXNativeTarget "FinstaFameTests" */;
+			buildPhases = (
+				19EEE7F9FAB67E23A9B7C68C /* [CP] Check Pods Manifest.lock */,
+				F8353DB31E6E2DC800E502EE /* Sources */,
+				F8353DB41E6E2DC800E502EE /* Frameworks */,
+				F8353DB51E6E2DC800E502EE /* Resources */,
+				3A29DCA6F25498552887F731 /* [CP] Embed Pods Frameworks */,
+				7753C71AC3AA8D4A67A2C411 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8353DB91E6E2DC800E502EE /* PBXTargetDependency */,
+			);
+			name = FinstaFameTests;
+			productName = FinstaFameTests;
+			productReference = F8353DB71E6E2DC800E502EE /* FinstaFameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8353DC11E6E2DC800E502EE /* FinstaFameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8353DD11E6E2DC800E502EE /* Build configuration list for PBXNativeTarget "FinstaFameUITests" */;
+			buildPhases = (
+				AC67180C35514A58B88946B8 /* [CP] Check Pods Manifest.lock */,
+				F8353DBE1E6E2DC800E502EE /* Sources */,
+				F8353DBF1E6E2DC800E502EE /* Frameworks */,
+				F8353DC01E6E2DC800E502EE /* Resources */,
+				5F69945AB91EDC0C6AD16063 /* [CP] Embed Pods Frameworks */,
+				4CE4FA07843C6B3E9E65777A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8353DC41E6E2DC800E502EE /* PBXTargetDependency */,
+			);
+			name = FinstaFameUITests;
+			productName = FinstaFameUITests;
+			productReference = F8353DC21E6E2DC800E502EE /* FinstaFameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8353D9B1E6E2DC800E502EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Vaidehi Duraphe";
+				TargetAttributes = {
+					F8353DA21E6E2DC800E502EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F8353DB61E6E2DC800E502EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8353DA21E6E2DC800E502EE;
+					};
+					F8353DC11E6E2DC800E502EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8353DA21E6E2DC800E502EE;
+					};
+				};
+			};
+			buildConfigurationList = F8353D9E1E6E2DC800E502EE /* Build configuration list for PBXProject "FinstaFame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8353D9A1E6E2DC800E502EE;
+			productRefGroup = F8353DA41E6E2DC800E502EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8353DA21E6E2DC800E502EE /* FinstaFame */,
+				F8353DB61E6E2DC800E502EE /* FinstaFameTests */,
+				F8353DC11E6E2DC800E502EE /* FinstaFameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8353DA11E6E2DC800E502EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8353DB11E6E2DC800E502EE /* LaunchScreen.storyboard in Resources */,
+				F8353DAE1E6E2DC800E502EE /* Assets.xcassets in Resources */,
+				F8353DAC1E6E2DC800E502EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8353DB51E6E2DC800E502EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8353DC01E6E2DC800E502EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0757FAB6B9CE4BB1A4B26771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinstaFame/Pods-FinstaFame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F425F64A336DFF1EE962C5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinstaFame/Pods-FinstaFame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19EEE7F9FAB67E23A9B7C68C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A29DCA6F25498552887F731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinstaFameTests/Pods-FinstaFameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CE4FA07843C6B3E9E65777A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinstaFameUITests/Pods-FinstaFameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F69945AB91EDC0C6AD16063 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinstaFameUITests/Pods-FinstaFameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7753C71AC3AA8D4A67A2C411 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinstaFameTests/Pods-FinstaFameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8555B52A0F5D14050886D37E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC67180C35514A58B88946B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8353D9F1E6E2DC800E502EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8256FC61E70D5FA006276BA /* HomeViewController.swift in Sources */,
+				F8256FC21E70D3FE006276BA /* PhotosViewController.swift in Sources */,
+				F8353DD51E6E30AC00E502EE /* LoginViewController.swift in Sources */,
+				F8147BE81E7B783D004834ED /* Post.swift in Sources */,
+				F8353DA71E6E2DC800E502EE /* AppDelegate.swift in Sources */,
+				F8256FC81E70D725006276BA /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8353DB31E6E2DC800E502EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8353DBC1E6E2DC800E502EE /* FinstaFameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8353DBE1E6E2DC800E502EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8353DC71E6E2DC800E502EE /* FinstaFameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8353DB91E6E2DC800E502EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8353DA21E6E2DC800E502EE /* FinstaFame */;
+			targetProxy = F8353DB81E6E2DC800E502EE /* PBXContainerItemProxy */;
+		};
+		F8353DC41E6E2DC800E502EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8353DA21E6E2DC800E502EE /* FinstaFame */;
+			targetProxy = F8353DC31E6E2DC800E502EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8353DAA1E6E2DC800E502EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8353DAB1E6E2DC800E502EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8353DAF1E6E2DC800E502EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8353DB01E6E2DC800E502EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8353DC91E6E2DC800E502EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8353DCA1E6E2DC800E502EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8353DCC1E6E2DC800E502EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE408045BD62FCFF49EC0B86 /* Pods-FinstaFame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinstaFame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FinstaFame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F8353DCD1E6E2DC800E502EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75818DBB6AADBE5FEB8D8CAB /* Pods-FinstaFame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinstaFame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FinstaFame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F8353DCF1E6E2DC800E502EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7FEFBA984CA17BAA646C68 /* Pods-FinstaFameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinstaFameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FinstaFameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinstaFame.app/FinstaFame";
+			};
+			name = Debug;
+		};
+		F8353DD01E6E2DC800E502EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91652CA92B45BE2FED0422F /* Pods-FinstaFameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinstaFameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FinstaFameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinstaFame.app/FinstaFame";
+			};
+			name = Release;
+		};
+		F8353DD21E6E2DC800E502EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95961DE71D8FCD3296258D8 /* Pods-FinstaFameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FinstaFameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FinstaFameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinstaFame;
+			};
+			name = Debug;
+		};
+		F8353DD31E6E2DC800E502EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC249E397524DD6CCC6C4354 /* Pods-FinstaFameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FinstaFameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FinstaFameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinstaFame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8353D9E1E6E2DC800E502EE /* Build configuration list for PBXProject "FinstaFame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8353DC91E6E2DC800E502EE /* Debug */,
+				F8353DCA1E6E2DC800E502EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8353DCB1E6E2DC800E502EE /* Build configuration list for PBXNativeTarget "FinstaFame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8353DCC1E6E2DC800E502EE /* Debug */,
+				F8353DCD1E6E2DC800E502EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8353DCE1E6E2DC800E502EE /* Build configuration list for PBXNativeTarget "FinstaFameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8353DCF1E6E2DC800E502EE /* Debug */,
+				F8353DD01E6E2DC800E502EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8353DD11E6E2DC800E502EE /* Build configuration list for PBXNativeTarget "FinstaFameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8353DD21E6E2DC800E502EE /* Debug */,
+				F8353DD31E6E2DC800E502EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8353D9B1E6E2DC800E502EE /* Project object */;
+}
